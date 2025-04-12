@@ -1,2 +1,1 @@
-# odin-recipes
-The Odin Project - Foundations Recipes.
+# The Odin Project - Foundations Recipes
