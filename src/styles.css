@@ -1,0 +1,73 @@
+@font-face { font-family: "Inter Regular"; src: url("fonts/Inter/Inter-Regular.ttf"); }
+@font-face { font-family: "Inter Medium"; src: url("fonts/Inter/Inter-Medium.ttf"); }
+@font-face { font-family: "Inter Bold"; src: url("fonts/Inter/Inter-Bold.ttf"); }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --slate-100: #f1f5f9;
+  --slate-400: #90a1b9;
+  --slate-950: #020617;
+  --green-500: #00c950;
+  --indigo-900: #432dd7;
+}
+
+html {
+  font-family: "Inter Regular", sans-serif;
+}
+
+body {
+  color: var(--slate-100);
+  padding: 1rem;
+  background-color: var(--slate-950);
+}
+
+h1,h2,h3,
+h4,h5,h6 {
+  color: var(--slate-100);
+  margin: 1rem 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  list-style-type: none;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-left: 1rem;
+}
+
+p,
+li {
+  color: var(--slate-400);
+}
+
+a {
+  color: var(--green-500);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--indigo-900);
+}
+
+.recipe-description,
+.steps {
+  width: 50ch;
+  margin-bottom: .5rem;
+}
